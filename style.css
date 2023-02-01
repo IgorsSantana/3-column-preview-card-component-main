@@ -13,7 +13,6 @@
 .box {
     width: 60%;
     display: flex;
-    border-radius: 10px;
 }
 .box .box-yellow {
     background-color: hsl(31, 77%, 52%);
@@ -79,5 +78,13 @@
     .box {
         display: block;
         width: 40%;
+    }
+    .box .box-yellow {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    .box .box-green {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
     }
 }
