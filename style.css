@@ -46,7 +46,7 @@
 .box .button-box {
     font-family: 'Lexend Deca', sans-serif;
     border: 3px solid #ffffff;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #ffffff;
     border-radius: 40px;
     color: #ffffff;
     width: 130px;
@@ -55,17 +55,26 @@
     margin: 30px 50px 50px 50px;
     cursor: pointer;
 }
-.box .button-box:hover {
-    background-color: #ffffff;
-}
-.box #button-sedans:hover {
+.box #button-sedans {
     color: hsl(31, 77%, 52%);
 }
-.box #button-suvs:hover {
+.box #button-sedans:hover {
+    color: #ffffff;
+    background-color: hsl(31, 77%, 52%);
+}
+.box #button-suvs {
     color: hsl(184, 100%, 22%);
 }
-.box #button-luxury:hover {
+.box #button-suvs:hover {
+    color: #ffffff;
+    background-color: hsl(184, 100%, 22%);
+}
+.box #button-luxury {
     color: hsl(179, 100%, 13%);
+}
+.box #button-luxury:hover {
+    color: #ffffff;
+    background-color: hsl(179, 100%, 13%);
 }
 .attribution {
     font-size: 11px;
