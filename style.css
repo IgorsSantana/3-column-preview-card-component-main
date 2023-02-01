@@ -13,6 +13,8 @@
 .box {
     width: 60%;
     display: flex;
+    max-width: 880px;
+    max-height: 460px;
 }
 .box .box-yellow {
     background-color: hsl(31, 77%, 52%);
@@ -91,6 +93,8 @@
     .box {
         display: block;
         width: 40%;
+        min-width: 440px;
+        min-height: 1270px;
     }
     .box .box-yellow {
         border-bottom-left-radius: 0;
